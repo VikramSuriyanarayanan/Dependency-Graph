@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cerner.devcenter.dependencygraph.interfaces;
+package com.cern.decenter.dependencygraph.interfaces;
 
 import org.neo4j.graphdb.GraphDatabaseService;
 

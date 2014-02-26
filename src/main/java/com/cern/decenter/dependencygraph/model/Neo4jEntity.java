@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cerner.devcenter.dependencygraph.model;
+package com.cern.decenter.dependencygraph.model;
 
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.Node;

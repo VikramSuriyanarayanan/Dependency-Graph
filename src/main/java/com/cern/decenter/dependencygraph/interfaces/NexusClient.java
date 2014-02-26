@@ -1,10 +1,10 @@
-package com.cerner.devcenter.dependencygraph.interfaces;
+package com.cern.decenter.dependencygraph.interfaces;
 
 import java.io.InputStream;
 import java.net.URI;
 
-import com.cerner.devcenter.dependencygraph.exceptions.InvalidMavenObjectException;
-import com.cerner.devcenter.dependencygraph.model.MavenEntity;
+import com.cern.decenter.dependencygraph.exceptions.InvalidMavenObjectException;
+import com.cern.decenter.dependencygraph.model.MavenEntity;
 import com.sun.jersey.api.client.WebResource;
 
 /**

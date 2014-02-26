@@ -18,7 +18,8 @@ import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 
-import com.cerner.devcenter.dependencygraph.interfaces.DatabaseBuilder;
+import com.cern.decenter.dependencygraph.Neo4j.DatabaseBuilderImpl;
+import com.cern.decenter.dependencygraph.interfaces.DatabaseBuilder;
 
 /**
  * Test Class for testing the functionality of DatabaseBuilderImpl
@@ -54,7 +55,7 @@ public class DatabaseBuilderImplTest {
 	 * Tests for Null input argument
 	 * <p>
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.Neo4j.DatabaseBuilderImpl#DatabaseBuilderImpl(java.lang.String)}
+	 * {@link com.cern.decenter.dependencygraph.Neo4j.DatabaseBuilderImpl#DatabaseBuilderImpl(java.lang.String)}
 	 * .
 	 */
 	@Test(expected = IllegalArgumentException.class)
@@ -67,7 +68,7 @@ public class DatabaseBuilderImplTest {
 	 * Tests if database is created successfully
 	 * <p>
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.Neo4j.DatabaseBuilderImpl#createDatabase()}
+	 * {@link com.cern.decenter.dependencygraph.Neo4j.DatabaseBuilderImpl#createDatabase()}
 	 * .
 	 * 
 	 * @throws Exception
@@ -85,7 +86,7 @@ public class DatabaseBuilderImplTest {
 	 * Tests if database creation fails and null is returned
 	 * <p>
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.Neo4j.DatabaseBuilderImpl#createDatabase()}
+	 * {@link com.cern.decenter.dependencygraph.Neo4j.DatabaseBuilderImpl#createDatabase()}
 	 * .
 	 * 
 	 * @throws Exception

@@ -1,4 +1,4 @@
-package com.cerner.devcenter.dependencygraph.Neo4j;
+package com.cern.decenter.dependencygraph.Neo4j;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
 import org.neo4j.kernel.impl.util.FileUtils;
 
-import com.cerner.devcenter.dependencygraph.interfaces.DatabaseBuilder;
+import com.cern.decenter.dependencygraph.interfaces.DatabaseBuilder;
 
 /**
  * Class to create Database for storing Dependency information.

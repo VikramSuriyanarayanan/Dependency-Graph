@@ -1,9 +1,9 @@
-package com.cerner.devcenter.dependencygraph.interfaces;
+package com.cern.decenter.dependencygraph.interfaces;
 
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.TransactionFailureException;
 
-import com.cerner.devcenter.dependencygraph.model.MavenEntity;
+import com.cern.decenter.dependencygraph.model.MavenEntity;
 
 /**
  * An interface for processing dependency information in Data Access Layer (DAL)

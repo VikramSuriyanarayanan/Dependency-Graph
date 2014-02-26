@@ -1,4 +1,4 @@
-package com.cerner.devcenter.dependencygraph.exceptions;
+package com.cern.decenter.dependencygraph.exceptions;
 
 /**
  * Exception Class for Invalid mavenObjects. 

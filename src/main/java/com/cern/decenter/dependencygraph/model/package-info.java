@@ -5,7 +5,7 @@
  * @author Vikram Suriyanarayanan
  */
 @XmlSchema(namespace = "http://maven.apache.org/POM/4.0.0", elementFormDefault = XmlNsForm.QUALIFIED)
-package com.cerner.devcenter.dependencygraph.model;
+package com.cern.decenter.dependencygraph.model;
 
 import javax.xml.bind.annotation.XmlNsForm;
 import javax.xml.bind.annotation.XmlSchema;

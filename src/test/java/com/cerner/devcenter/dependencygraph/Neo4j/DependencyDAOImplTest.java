@@ -25,10 +25,11 @@ import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 
-import com.cerner.devcenter.dependencygraph.interfaces.DependencyDAO;
-import com.cerner.devcenter.dependencygraph.model.Dependency;
-import com.cerner.devcenter.dependencygraph.model.MavenEntity;
-import com.cerner.devcenter.dependencygraph.model.Neo4jEntity;
+import com.cern.decenter.dependencygraph.Neo4j.DependencyDAOImpl;
+import com.cern.decenter.dependencygraph.interfaces.DependencyDAO;
+import com.cern.decenter.dependencygraph.model.Dependency;
+import com.cern.decenter.dependencygraph.model.MavenEntity;
+import com.cern.decenter.dependencygraph.model.Neo4jEntity;
 
 /**
  * Test class for testing the functionality of DependencyDAOImpl
@@ -76,7 +77,7 @@ public class DependencyDAOImplTest {
 	 * Tests if values are inserted properly into embedded Database
 	 * <p>
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.Neo4j.DependencyDAOImpl#insertIntoDB(com.cerner.devcenter.dependencygraph.model.MavenEntity)}
+	 * {@link com.cern.decenter.dependencygraph.Neo4j.DependencyDAOImpl#insertIntoDB(com.cern.decenter.dependencygraph.model.MavenEntity)}
 	 * .
 	 * @throws Exception 
 	 */
@@ -101,7 +102,7 @@ public class DependencyDAOImplTest {
 	 * is passed as input
 	 * <p>
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.Neo4j.DependencyDAOImpl#insertIntoDB(com.cerner.devcenter.dependencygraph.model.MavenEntity)}
+	 * {@link com.cern.decenter.dependencygraph.Neo4j.DependencyDAOImpl#insertIntoDB(com.cern.decenter.dependencygraph.model.MavenEntity)}
 	 * .
 	 */
 	@Test(expected = IllegalArgumentException.class)
@@ -113,7 +114,7 @@ public class DependencyDAOImplTest {
 	 * Tests whether the method returns true when node is removed
 	 * <p>
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.Neo4j.DependencyDAOImpl#removeNode(com.cerner.devcenter.dependencygraph.model.MavenEntity)}
+	 * {@link com.cern.decenter.dependencygraph.Neo4j.DependencyDAOImpl#removeNode(com.cern.decenter.dependencygraph.model.MavenEntity)}
 	 * .
 	 */
 	@Test
@@ -134,7 +135,7 @@ public class DependencyDAOImplTest {
 	 * Tests whether the method returns false when Node is not removed
 	 * <p>
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.Neo4j.DependencyDAOImpl#removeNode(com.cerner.devcenter.dependencygraph.model.MavenEntity)}
+	 * {@link com.cern.decenter.dependencygraph.Neo4j.DependencyDAOImpl#removeNode(com.cern.decenter.dependencygraph.model.MavenEntity)}
 	 * .
 	 */
 	@Test
@@ -148,7 +149,7 @@ public class DependencyDAOImplTest {
 	 * Tests whether the method throws exception when Node is null
 	 * <p>
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.Neo4j.DependencyDAOImpl#removeNode(com.cerner.devcenter.dependencygraph.model.MavenEntity)}
+	 * {@link com.cern.decenter.dependencygraph.Neo4j.DependencyDAOImpl#removeNode(com.cern.decenter.dependencygraph.model.MavenEntity)}
 	 * .
 	 */
 	@Test(expected = IllegalArgumentException.class)

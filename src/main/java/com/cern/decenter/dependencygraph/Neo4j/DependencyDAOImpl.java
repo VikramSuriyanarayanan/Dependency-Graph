@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cerner.devcenter.dependencygraph.Neo4j;
+package com.cern.decenter.dependencygraph.Neo4j;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -14,10 +14,10 @@ import org.neo4j.graphdb.RelationshipType;
 import org.neo4j.graphdb.Transaction;
 import org.neo4j.graphdb.TransactionFailureException;
 
-import com.cerner.devcenter.dependencygraph.interfaces.DependencyDAO;
-import com.cerner.devcenter.dependencygraph.model.Dependency;
-import com.cerner.devcenter.dependencygraph.model.MavenEntity;
-import com.cerner.devcenter.dependencygraph.model.Neo4jEntity;
+import com.cern.decenter.dependencygraph.interfaces.DependencyDAO;
+import com.cern.decenter.dependencygraph.model.Dependency;
+import com.cern.decenter.dependencygraph.model.MavenEntity;
+import com.cern.decenter.dependencygraph.model.Neo4jEntity;
 
 /**
  * Class for processing Dependency information in Data Access Layer (DAL)

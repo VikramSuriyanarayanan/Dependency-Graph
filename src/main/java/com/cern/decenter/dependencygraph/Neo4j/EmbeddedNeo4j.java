@@ -1,4 +1,4 @@
-package com.cerner.devcenter.dependencygraph.Neo4j;
+package com.cern.decenter.dependencygraph.Neo4j;
 
 import java.io.File;
 import java.io.IOException;

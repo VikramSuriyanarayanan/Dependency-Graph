@@ -14,6 +14,10 @@ import org.mockito.Mockito;
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.Node;
 
+import com.cern.decenter.dependencygraph.model.Dependency;
+import com.cern.decenter.dependencygraph.model.MavenEntity;
+import com.cern.decenter.dependencygraph.model.Neo4jEntity;
+
 /**
  * @author Vikram Suriyanarayanan VS029807
  * 
@@ -56,7 +60,7 @@ public class Neo4jEntityTest {
 
 	/**
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.Neo4jEntity#equals(java.lang.Object)}
+	 * {@link com.cern.decenter.dependencygraph.model.Neo4jEntity#equals(java.lang.Object)}
 	 * .
 	 */
 	@Test
@@ -66,7 +70,7 @@ public class Neo4jEntityTest {
 	
 	/**
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.Neo4jEntity#equals(java.lang.Object)}
+	 * {@link com.cern.decenter.dependencygraph.model.Neo4jEntity#equals(java.lang.Object)}
 	 * .
 	 */
 	@Test
@@ -76,7 +80,7 @@ public class Neo4jEntityTest {
 
 	/**
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.Neo4jEntity#equals(java.lang.Object)}
+	 * {@link com.cern.decenter.dependencygraph.model.Neo4jEntity#equals(java.lang.Object)}
 	 * .
 	 */
 	@Test
@@ -86,7 +90,7 @@ public class Neo4jEntityTest {
 
 	/**
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.Neo4jEntity#equals(java.lang.Object)}
+	 * {@link com.cern.decenter.dependencygraph.model.Neo4jEntity#equals(java.lang.Object)}
 	 * .
 	 */
 	@Test
@@ -97,7 +101,7 @@ public class Neo4jEntityTest {
 
 	/**
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.Neo4jEntity#equals(java.lang.Object)}
+	 * {@link com.cern.decenter.dependencygraph.model.Neo4jEntity#equals(java.lang.Object)}
 	 * .
 	 */
 	@Test
@@ -109,7 +113,7 @@ public class Neo4jEntityTest {
 
 	/**
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.Neo4jEntity#hashCode()}
+	 * {@link com.cern.decenter.dependencygraph.model.Neo4jEntity#hashCode()}
 	 * .
 	 */
 	@Test
@@ -119,7 +123,7 @@ public class Neo4jEntityTest {
 
 	/**
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.Neo4jEntity#hashCode()}
+	 * {@link com.cern.decenter.dependencygraph.model.Neo4jEntity#hashCode()}
 	 * .
 	 */
 	@Test
@@ -130,7 +134,7 @@ public class Neo4jEntityTest {
 
 	/**
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.Neo4jEntity#hashCode()}
+	 * {@link com.cern.decenter.dependencygraph.model.Neo4jEntity#hashCode()}
 	 * .
 	 */
 	@Test

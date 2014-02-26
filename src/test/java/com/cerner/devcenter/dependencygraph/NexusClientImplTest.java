@@ -24,10 +24,11 @@ import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 import org.xml.sax.InputSource;
 
-import com.cerner.devcenter.dependencygraph.exceptions.InvalidMavenObjectException;
-import com.cerner.devcenter.dependencygraph.interfaces.NexusClient;
-import com.cerner.devcenter.dependencygraph.model.Dependency;
-import com.cerner.devcenter.dependencygraph.model.MavenEntity;
+import com.cern.decenter.dependencygraph.NexusClientImpl;
+import com.cern.decenter.dependencygraph.exceptions.InvalidMavenObjectException;
+import com.cern.decenter.dependencygraph.interfaces.NexusClient;
+import com.cern.decenter.dependencygraph.model.Dependency;
+import com.cern.decenter.dependencygraph.model.MavenEntity;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.ClientResponse.Status;
 import com.sun.jersey.api.client.WebResource;
@@ -96,7 +97,7 @@ public class NexusClientImplTest {
 	 * successfully
 	 * 
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.NexusClientImpl#createClient(java.net.URI)}
+	 * {@link com.cern.decenter.dependencygraph.NexusClientImpl#createClient(java.net.URI)}
 	 * .
 	 * 
 	 * @throws URISyntaxException
@@ -112,7 +113,7 @@ public class NexusClientImplTest {
 	 * Tests for Null URI value and throws IllegalArgumentException.
 	 * 
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.NexusClientImpl#createClient(java.net.URI)}
+	 * {@link com.cern.decenter.dependencygraph.NexusClientImpl#createClient(java.net.URI)}
 	 * .
 	 * 
 	 * @throws URISyntaxException
@@ -127,7 +128,7 @@ public class NexusClientImplTest {
 	 * Tests for Empty URI value and throws IllegalArgumentException.
 	 * 
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.NexusClientImpl#createClient(java.net.URI)}
+	 * {@link com.cern.decenter.dependencygraph.NexusClientImpl#createClient(java.net.URI)}
 	 * .
 	 * 
 	 * @throws URISyntaxException
@@ -143,7 +144,7 @@ public class NexusClientImplTest {
 	 * Tests for getting Nexus API Client response.
 	 * 
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.NexusClientImpl#getResponse(com.sun.jersey.api.client.WebResource)}
+	 * {@link com.cern.decenter.dependencygraph.NexusClientImpl#getResponse(com.sun.jersey.api.client.WebResource)}
 	 * .
 	 */
 	@Test
@@ -161,7 +162,7 @@ public class NexusClientImplTest {
 	 * Tests for getting Nexus API Client response with Null input.
 	 * 
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.NexusClientImpl#getResponse(com.sun.jersey.api.client.WebResource)}
+	 * {@link com.cern.decenter.dependencygraph.NexusClientImpl#getResponse(com.sun.jersey.api.client.WebResource)}
 	 * .
 	 */
 	@Test(expected = IllegalArgumentException.class)
@@ -174,7 +175,7 @@ public class NexusClientImplTest {
 	 * which is not OK.
 	 * 
 	 * Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.NexusClientImpl#getResponse(com.sun.jersey.api.client.WebResource)}
+	 * {@link com.cern.decenter.dependencygraph.NexusClientImpl#getResponse(com.sun.jersey.api.client.WebResource)}
 	 * .
 	 */
 	@Test(expected = RuntimeException.class)
@@ -189,7 +190,7 @@ public class NexusClientImplTest {
 
 	/**
 	 * Test method for getting Maven Object
-	 * {@link com.cerner.devcenter.dependencygraph.NexusClientImpl#getMavenObject(java.lang.String)}
+	 * {@link com.cern.decenter.dependencygraph.NexusClientImpl#getMavenObject(java.lang.String)}
 	 * .
 	 * 
 	 * @throws Exception
@@ -212,7 +213,7 @@ public class NexusClientImplTest {
 
 	/**
 	 * Test method for getting Maven Object where input String is Null
-	 * {@link com.cerner.devcenter.dependencygraph.NexusClientImpl#getMavenObject(java.lang.String)}
+	 * {@link com.cern.decenter.dependencygraph.NexusClientImpl#getMavenObject(java.lang.String)}
 	 * .
 	 * 
 	 * @throws Exception
@@ -226,7 +227,7 @@ public class NexusClientImplTest {
 	/**
 	 * Test method for getting Maven Object. It throws
 	 * InvalidMavenObjectException
-	 * {@link com.cerner.devcenter.dependencygraph.NexusClientImpl#getMavenObject(java.lang.String)}
+	 * {@link com.cern.decenter.dependencygraph.NexusClientImpl#getMavenObject(java.lang.String)}
 	 * .
 	 * 
 	 * @throws Exception

@@ -1,4 +1,4 @@
-package com.cerner.devcenter.dependencygraph.model;
+package com.cern.decenter.dependencygraph.model;
 
 import java.util.List;
 

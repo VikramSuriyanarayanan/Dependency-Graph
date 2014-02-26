@@ -7,10 +7,11 @@ import java.net.URISyntaxException;
 
 import org.neo4j.graphdb.GraphDatabaseService;
 
-import com.cerner.devcenter.dependencygraph.Neo4j.DependencyDAOImpl;
-import com.cerner.devcenter.dependencygraph.Neo4j.EmbeddedNeo4j;
-import com.cerner.devcenter.dependencygraph.interfaces.DependencyDAO;
-import com.cerner.devcenter.dependencygraph.model.MavenEntity;
+import com.cern.decenter.dependencygraph.NexusClientImpl;
+import com.cern.decenter.dependencygraph.Neo4j.DependencyDAOImpl;
+import com.cern.decenter.dependencygraph.Neo4j.EmbeddedNeo4j;
+import com.cern.decenter.dependencygraph.interfaces.DependencyDAO;
+import com.cern.decenter.dependencygraph.model.MavenEntity;
 import com.sun.jersey.api.client.WebResource;
 
 public class DemoTestRun {

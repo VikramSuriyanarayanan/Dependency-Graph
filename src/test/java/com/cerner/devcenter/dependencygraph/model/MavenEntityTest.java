@@ -8,6 +8,9 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.cern.decenter.dependencygraph.model.Dependency;
+import com.cern.decenter.dependencygraph.model.MavenEntity;
+
 /**
  * Test Class for Maven Entity Model
  * 
@@ -69,7 +72,7 @@ public class MavenEntityTest {
 
 	/**
 	 * Tests if groupId is correctly obtained. Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.MavenEntity#getGroupId()}
+	 * {@link com.cern.decenter.dependencygraph.model.MavenEntity#getGroupId()}
 	 * .
 	 */
 	@Test
@@ -79,7 +82,7 @@ public class MavenEntityTest {
 
 	/**
 	 * Tests if artifactId is correctly obtained. Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.MavenEntity#getArtifactId()}
+	 * {@link com.cern.decenter.dependencygraph.model.MavenEntity#getArtifactId()}
 	 * .
 	 */
 	@Test
@@ -89,7 +92,7 @@ public class MavenEntityTest {
 
 	/**
 	 * Tests if version is correctly obtained. Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.MavenEntity#getVersion()}
+	 * {@link com.cern.decenter.dependencygraph.model.MavenEntity#getVersion()}
 	 * .
 	 */
 	@Test
@@ -99,7 +102,7 @@ public class MavenEntityTest {
 
 	/**
 	 * Tests if Name is correctly obtained. Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.MavenEntity#getName()}.
+	 * {@link com.cern.decenter.dependencygraph.model.MavenEntity#getName()}.
 	 */
 	@Test
 	public void testGetName() {
@@ -108,7 +111,7 @@ public class MavenEntityTest {
 
 	/**
 	 * Tests if Dependencies are correctly obtained. Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.MavenEntity#getDependencies()}
+	 * {@link com.cern.decenter.dependencygraph.model.MavenEntity#getDependencies()}
 	 * .
 	 */
 	@Test

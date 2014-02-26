@@ -1,4 +1,4 @@
-package com.cerner.devcenter.dependencygraph;
+package com.cern.decenter.dependencygraph;
 
 import java.io.InputStream;
 import java.net.URI;
@@ -10,9 +10,9 @@ import javax.xml.bind.Unmarshaller;
 
 import org.xml.sax.InputSource;
 
-import com.cerner.devcenter.dependencygraph.exceptions.InvalidMavenObjectException;
-import com.cerner.devcenter.dependencygraph.interfaces.NexusClient;
-import com.cerner.devcenter.dependencygraph.model.MavenEntity;
+import com.cern.decenter.dependencygraph.exceptions.InvalidMavenObjectException;
+import com.cern.decenter.dependencygraph.interfaces.NexusClient;
+import com.cern.decenter.dependencygraph.model.MavenEntity;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;

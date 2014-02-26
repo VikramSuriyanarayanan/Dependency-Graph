@@ -5,6 +5,9 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.cern.decenter.dependencygraph.model.Dependency;
+import com.cern.decenter.dependencygraph.model.MavenEntity;
+
 /**
  * Test Class for Dependency Model
  * 
@@ -52,7 +55,7 @@ public class DependencyTest {
 
 	/**
 	 * Tests if groupId is correctly obtained. Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.Dependency#getGroupId()}
+	 * {@link com.cern.decenter.dependencygraph.model.Dependency#getGroupId()}
 	 * .
 	 */
 	@Test
@@ -64,7 +67,7 @@ public class DependencyTest {
 
 	/**
 	 * Tests if artifactId is correctly obtained. Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.Dependency#getArtifactId()}
+	 * {@link com.cern.decenter.dependencygraph.model.Dependency#getArtifactId()}
 	 * .
 	 */
 	@Test
@@ -76,7 +79,7 @@ public class DependencyTest {
 
 	/**
 	 * Tests if version is correctly obtained. Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.Dependency#getVersion()}
+	 * {@link com.cern.decenter.dependencygraph.model.Dependency#getVersion()}
 	 * .
 	 */
 	@Test
@@ -88,7 +91,7 @@ public class DependencyTest {
 
 	/**
 	 * Tests if Scope is correctly obtained. Test method for
-	 * {@link com.cerner.devcenter.dependencygraph.model.Dependency#getScope()}.
+	 * {@link com.cern.decenter.dependencygraph.model.Dependency#getScope()}.
 	 */
 	@Test
 	public void testGetScope() {
