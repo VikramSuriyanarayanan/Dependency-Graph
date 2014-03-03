@@ -1,4 +1,4 @@
-package com.cerner.devcenter.dependencygraph;
+package com.cen.decent.dependencygraph;
 
 import java.io.IOException;
 import java.io.InputStream;

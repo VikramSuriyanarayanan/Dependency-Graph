@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cerner.devcenter.dependencygraph.Neo4j;
+package com.cen.decent.dependencygraph.Neo4j;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;

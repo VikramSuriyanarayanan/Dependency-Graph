@@ -1,4 +1,4 @@
-package com.cerner.devcenter.dependencygraph.model;
+package com.cen.decent.dependencygraph.model;
 
 import static org.junit.Assert.*;
 

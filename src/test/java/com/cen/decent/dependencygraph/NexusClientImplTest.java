@@ -1,4 +1,4 @@
-package com.cerner.devcenter.dependencygraph;
+package com.cen.decent.dependencygraph;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
